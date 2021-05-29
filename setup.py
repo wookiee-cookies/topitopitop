@@ -6,7 +6,7 @@ if __name__ == "__main__":
 
     setup(
         name="topitopitop",
-        version="v1.0.0",
+        version="v1.0.1",
         description="demo",
         long_description="# foo bar",
         long_description_content_type="text/markdown",
