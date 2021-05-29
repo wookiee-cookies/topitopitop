@@ -1,0 +1,18 @@
+name-template: 'v$NEXT_MINOR_VERSION'
+tag-template: 'v$NEXT_MINOR_VERSION'
+categories:
+  - title: 'Breaking Changes'
+    labels:
+    - 'breaking'
+  - title: 'Enhancements'
+    labels:
+    - 'enhancement'
+exclude-labels:
+  - 'dependencies'
+  - 'installation/packaging'
+  - 'tests'
+  - 'infrastructure'
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+template: |
+  ## Changes
+  $CHANGES
